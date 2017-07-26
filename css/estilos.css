@@ -1,0 +1,22 @@
+.body-back {
+  background: url(../img/fondo.jpg) no-repeat;
+  background-size: 100%;
+
+}
+
+.contenedor {
+  min-width: 15em;
+  max-width: 50em;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(13, 33, 221, 0.2);
+}
+
+.cabecera {
+  min-height: 7em;
+  padding-top: 2em;
+}
+
+.contenido {
+  min-height: 100vh;
+}
