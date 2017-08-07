@@ -1,3 +1,11 @@
+h1 {
+  font-size: 2em;
+}
+
+h2,h3 {
+  font-size: 1em;
+}
+
 .body-back {
   background: url(../img/fondo.jpg) no-repeat;
   background-size: 100%;
@@ -13,10 +21,88 @@
 }
 
 .cabecera {
-  min-height: 7em;
-  padding-top: 2em;
+  min-height: 8em;
+  padding-top: 1em;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: gray;
+  margin-bottom: 1em;
 }
 
 .contenido {
   min-height: 100vh;
+
+}
+
+.panelnav {
+  color: pink;
+  background-color: rgba(61, 53, 92, 0.5);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+}
+
+table tbody {
+  background: transparent;
+}
+
+table {
+  border: 1px solid;
+}
+
+.menunav {
+  text-align: center;
+  border
+}
+
+.favoritos {
+  padding-top: 1em;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.historial {
+  text-align: left;
+}
+
+.historial-registro {
+  min-height: 2em;
+}
+
+a.historial-item:link,
+a.historial-item:hover,
+a.historial-item:active,
+a.historial-item:visited {
+    color: pink;
+    padding-left: 1em;
+}
+
+.panelcontenido {
+  color: #2E2E2E;
+  background-color: rgba(232, 163, 177, 0.9);
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 2em;
+}
+
+.articulo-comentario{
+    color: pink;
+}
+
+.articulo-texto {
+  font-size: 0.8em;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.comentario {
+  font-size: 0.8em;
+  padding-top: 1em;
+}
+
+.comentario-boton {
+  background-color: pink;
+  color: black;
 }
